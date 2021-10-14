@@ -1,10 +1,13 @@
 import './App.css';
+import Weather from './Weather';
 
 export default function App() {
   return (
   
   <div className="App">
-    Weather App
+    <div className="container">
+
+    <Weather />
     <footer> 
       See project on {""} 
       <a href="https://github.com/nataliesha/my-react-weather-app" target="_blank" rel="noreferrer">
@@ -13,6 +16,7 @@ export default function App() {
         </a>
 
     </footer>
+    </div>
     </div>
   );
 }
