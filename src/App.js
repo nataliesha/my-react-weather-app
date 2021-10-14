@@ -7,7 +7,7 @@ export default function App() {
     Weather App
     <footer> 
       See project on {""} 
-      <a href="https://github.com/nataliesha/my-react-weather-app" target="_blank">
+      <a href="https://github.com/nataliesha/my-react-weather-app" target="_blank" rel="noreferrer">
         
         github
         </a>
