@@ -1,12 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;0,900;1,600&display=swap');
 
+/*CSS VARIABLES*/
+
+:root {
+  --main-color: #F0DDD7;
+  --secondary-coloe: #cba052;
+  --secondary-hover: #dcbb87;
+}
+
 .weather {
     font-family: 'Poppins', sans-serif;
-    background: white;
+    width: 600px;
+    height: auto;
+    background: var(--main-color);
     border-radius: 16px;
     box-shadow: 0px 30px 50px rgba(65, 50, 100, 0.08);
     padding: 40px;
-    color: rgb(135, 135, 135);
+    color: #000;
+    margin: 0 auto;
     margin-top: 40px;
 
 }
@@ -19,6 +30,7 @@
   font-size: 24px;
   font-weight: 100;
   margin: 20px 0 0 0;
+  padding-left: 0;
   line-height: 29px;
 }
 .Weather ul {
@@ -42,7 +54,6 @@
     line-height: 54px;
     font-weight: 400;
     margin: 10px;
-    border: solid;
 }
 
 .Weather .search-input::placeholder {
@@ -50,20 +61,3 @@
   color: rgba(39, 33, 66, 0.4);
 }
 
-.Weather .button {
-  background: #885df1;
-  font-weight: bold;
-  font-size: 16px;
-  padding: 15px 0;
-  border: none;
-  height: 50px;
-}
-
-.Weather .btn:hover {
-  background: #fff;
-  font-weight: bold;
-  font-size: 16px;
-  padding: 15px 0;
-  border: #885df1;
-  height: 50px;
-}
