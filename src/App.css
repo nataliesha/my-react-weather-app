@@ -1,3 +1,11 @@
+*, :after, :before {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #F1F1F1;
+}
+
 .App {
   max-width: 600px;
   margin:0 auto;
