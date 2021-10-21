@@ -11,10 +11,10 @@ export default function App() {
 
     <Weather defaultCity = "New York"/>
     <footer> 
-      See project on {""} 
+      This project was coded by Natalie Sharoni and is {""} 
       <a href="https://github.com/nataliesha/my-react-weather-app" target="_blank" rel="noreferrer">
         
-        github
+       open-sourced on GitHub
         </a>
 
     </footer>

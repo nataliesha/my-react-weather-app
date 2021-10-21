@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anton&family=Lobster&family=Raleway:wght@900&display=swap');
 .weather {
     font-family: 'Poppins', sans-serif;
     width: 600px;
@@ -52,17 +53,23 @@
 }
 
 .weather .weather-btn {
-  font-size: 20px;
+  padding-top: 5px;
+  padding-left: 0;
+  margin-left: 0;
+  font-size: 22px;
+  font-family: 'Raleway', sans-serif;
   border: none;
   border-radius: 7px;
   background-color: var(--main-color);
 }
 
 .weather .weather-btn:hover {
-  font-size: 20px;
-  border: 0.5px var(--secondary-color);
+  padding-top: 5px;
+  padding-left: 0;
+  margin-left: 0;
+  font-size: 22px;
+  font-family: 'Raleway', sans-serif;
   color: var(--secondary-color);
-  border-radius: 7px;
   background-color: var(--main-color);
 }
 

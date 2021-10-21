@@ -1,8 +1,7 @@
-.weatherTemperature {
-    margin: 0;
-    padding: 0;
+.weathertemperature .temperature {
+    color: red;
 }
 
-.temperature {
-    color: rebeccapurple;
+.weathertemperature .unit {
+    font-size: 18px;
 }
