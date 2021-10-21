@@ -11,7 +11,7 @@ export default function WeatherInfo(props) {
     <div className="weatherinfo-container text-capitalize"> 
     <div className="weatherinfo-1">
     <div className="weatherinfo-1-left">
-    <h1>{props.data.city}</h1>
+    <h1 className="text-xl-left">{props.data.city}</h1>
     <h5><FormattedDate date={props.data.date} /></h5>
     <h5 className="text-capitalize">{props.data.description}</h5>
     </div>

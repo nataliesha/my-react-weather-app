@@ -17,8 +17,8 @@
 
 .weatherinfo-1-left h1 {
     font-family: 'Raleway', sans-serif;
-    padding-bottom: 0.600rem;
-
+    padding-top: 20px;
+    font-size: 30px;
 }
 
 .weatherinfo-1-left h5 {
@@ -45,6 +45,8 @@
 
 .weatherinfo-3 {
     display: flex;
+    padding-top: 20px;
+    font-weight: 100;
 }
 
 .weatherinfo-3 h3 {
