@@ -1,5 +1,3 @@
-
-
 .weather {
     font-family: 'Poppins', sans-serif;
     width: 600px;
@@ -25,7 +23,7 @@
   padding-left: 0;
   line-height: 29px;
 }
-.Weather ul {
+.weather ul {
     margin: 0;
     padding: 0;
   }
@@ -48,8 +46,24 @@
     margin: 10px;
 }
 
-.Weather .search-input::placeholder {
+.weather .search-input::placeholder {
   line-height: 20px;
   color: rgba(39, 33, 66, 0.4);
 }
+
+.weather .weather-btn {
+  font-size: 20px;
+  border: none;
+  border-radius: 7px;
+  background-color: var(--main-color);
+}
+
+.weather .weather-btn:hover {
+  font-size: 20px;
+  border: 0.5px var(--secondary-color);
+  color: var(--secondary-color);
+  border-radius: 7px;
+  background-color: var(--main-color);
+}
+
 

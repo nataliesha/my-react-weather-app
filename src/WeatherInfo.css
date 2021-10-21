@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anton&family=Lobster&family=Raleway:wght@900&display=swap');
+
 
 .weatherinfo-container {
     display: flex;
@@ -7,14 +9,13 @@
 
 .weatherinfo-1 {
     display: flex;
-    border: solid;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
 .weatherinfo-1-left {
+    font-family: 'Raleway', sans-serif;
     flex-grow: 2;
-    margin-left: 1rem;
 }
 
 .weatherinfo-1-left h1 {
@@ -24,11 +25,13 @@
 }
 
 .weatherinfo-1-left h5 {
-    padding-bottom: 0.200rem;
+    font-size: 1rem;
+    padding-bottom: 0.100rem;
 }
 
 .weatherinfo-1-center {
     flex-grow: 1;
+    padding-top: 20px;
 
 }
 
@@ -38,7 +41,7 @@
 
 .weatherinfo-2 {
     display: flex;
-    justify-content: center;
+    color: #8f9294;
 }
 
 .weatherinfo-3 {
@@ -46,8 +49,8 @@
 }
 
 .weatherinfo-3 h3 {
-    font-family: 'Lobster', cursive;
-    padding: 5px 0;
+    font-family: 'Raleway', sans-serif;
+    padding: 7px 0;
     
 }
 
