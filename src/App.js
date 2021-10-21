@@ -1,6 +1,8 @@
 import './App.css';
 import Weather from './Weather';
 
+import "./Global.css";
+
 export default function App() {
   return (
   

@@ -1,0 +1,22 @@
+*, :after, :before {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #F1F1F1;
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;0,900;1,600&display=swap');
+
+/*CSS VARIABLES*/
+
+:root {
+  --main-color: #F0DDD7;
+  --secondary-coloe: #cba052;
+  --secondary-hover: #dcbb87;
+}
+
+li {
+  margin-left: 0;
+
+}

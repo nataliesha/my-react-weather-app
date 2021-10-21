@@ -3,33 +3,36 @@ import WeatherIcon from "./WeatherIcon";
 import FormattedDate from "./FormattedDate";
 import WeatherTemperature from "./WeatherTemperature";
 
+import "./Global.css";
+import "./WeatherInfo.css";
+
 export default function WeatherInfo(props) {
-    return (<div className="weatherinfo"> 
-        <h1>{props.data.city}</h1>
-        <ul>
-        <li>
-            <FormattedDate date={props.data.date} />
-        </li>
-        <li className="text-capitalize">{props.data.description}</li>
-    </ul>
-    <div className="row mt-3">
-        <div className="col-6">
-        <div className="clearfix">
-            <div className="float-left">
-            <WeatherIcon code={props.data.icon} size={55} />
+    return (          
+    <div className="weatherinfo-container text-capitalize"> 
+    <div className="weatherinfo-1">
+    <div className="weatherinfo-1-left">
+    <h1>{props.data.city}</h1>
+    <h5><FormattedDate date={props.data.date} /></h5>
+    <h5 className="text-capitalize">{props.data.description}</h5>
+    </div>
+    <div className="weatherinfo-1-center">
+    <WeatherIcon code={props.data.icon} size={120} />
+    </div>
+    <div className="weatherinfo-1-right">
+    <h2><WeatherTemperature celsius={props.data.temperature}/></h2>
+    </div>
+    </div>   
+    <div className="">
+        <div className="weatherinfo-2">
+        <div className="weatherinfo-2-info"> 
+                <h6>Humidity: {props.data.humidity}%</h6>
+                <h6>Wind: {props.data.wind}km/h</h6>
             </div>
-            <div className="float-left">
-                <WeatherTemperature celsius={props.data.temperature}/>
-        </div>
-        </div>
-            </div>
-          <div className="col-6">
-            <ul>
-                <li>Humidity: {props.data.humidity}%</li>
-                <li>Wind: {props.data.wind}km/h</li>
-            </ul>
-            </div>
-           
+          </div>
+          <div className="weatherinfo-3">
+        <h3>Weekly Forecast:</h3>
+          </div>
+        
     </div>
     </div>
     );
